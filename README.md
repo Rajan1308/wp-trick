@@ -1,6 +1,6 @@
 # wp-trick
 
-`
+#
 function num_db_queries() {
 	global $wpdb;
 	// if(is_developer()){
@@ -13,5 +13,5 @@ function num_db_queries() {
 	// }
 }
 add_action('wp_footer', 'num_db_queries');
+#
 
-`
